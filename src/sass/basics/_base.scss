@@ -1,0 +1,83 @@
+/*------------------------------------*\
+  #CONTENTS
+\*------------------------------------*/
+
+/*
+ * BASICS
+ * Base...............
+ * Color..............
+ * Kramdown...........
+ * Typo...............
+ *
+ * NAVIGATION
+ * Footer.............
+ * Header.............
+ * Navbox.............
+ *
+ * PAGES
+ * About..............
+ * Assortiment........
+ * Form...............
+ * Header.............
+ * Home...............
+ * Login..............
+ * Mapbox.............
+ * Menu...............
+ * News...............
+ * Posts..............
+ * Producten..........
+ * Recepten...........
+ * Salvattore.........
+
+
+/*------------------------------------*\
+  #BASICS-BASE
+\*------------------------------------*/
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  letter-spacing: 0.03em;
+}
+
+html {
+  font-family: $font1, Arial, Helvetica, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  color: $text-color;
+  font-size: $fontsize;
+  font-weight: $fontweight;
+  line-height: $lineheight;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $text-color;
+  word-spacing: -0.05em;
+  font-feature-settings: "kern" 1;
+  font-variant-ligatures: none;
+  text-rendering: optimizeLegibility;
+  @media (min-width: $on-palm) {
+    font-size: $fontsize * 1.2;
+  }
+}
+
+body {
+  background: #f4f8fb;;
+  // background: red;
+}
+
+img {
+  width: 100% 
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+
+
+

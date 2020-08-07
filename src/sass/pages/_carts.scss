@@ -1,0 +1,145 @@
+/*------------------------------------*\
+  #PAGES-CARTS
+\*------------------------------------*/
+
+.boodschappen-box {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    p {
+        margin-left: 1em;
+    }
+    p.subtotaal {
+        font-family: $mono;
+    }
+
+}
+
+.carts-title {
+    input {
+        font-size: 0.9rem;
+        width: 400px;
+        padding: 0.5em 1em;
+        display: inline-block;
+    }
+}
+
+.profiel {
+    border-top: 1px solid $brand-color;
+}
+
+.een-profiel {
+    width: 100%;
+    @media (min-width: $on-palm) {
+        border-right: 1px solid $brand-color;
+        width: 50%;
+    }
+    button {
+        width: 150px;
+    }
+    form {
+        margin-left: 2em;
+        input {
+            padding: 0.5em 1em;
+            margin-bottom: 0.5em;
+        }
+    }
+}
+.geen-profiel {
+    width: 100%;
+    border-top: 1px solid $brand-color;
+    @media (min-width: $on-palm) {
+        width: 50%;
+        border-top: 0;
+    }
+    input {
+        padding: 0.5em 1em;
+        margin-bottom: 0.5em;
+    }    
+    button {
+        width: 150px;
+    }
+}
+
+.nog-geen-profiel {
+    text-align: left;
+    padding: 1em;
+}
+
+.nog-geen-profiel {
+    text-align: left;
+    padding: 1em;
+}
+
+.postcode-check {
+    input {
+        display: inline;
+    }
+}
+
+.btn-zetopmijnlijst {
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    font-family: $font1;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    margin: 1em 0;
+    float: right;
+}
+
+.btn-profiel-aanmelden,
+.btn-profiel-inloggen {
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    font-family: $font1;
+    font-weight: 400;
+    display: block;
+    vertical-align: middle;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    margin: 1em auto;
+}
+
+.orders-box {
+    position: relative;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    width: 100%;
+    border-bottom: 2px solid #f9f9f9;
+    padding: 7px 12px;
+    text-align: right;
+    p.price-bezorgen {
+        font-family: "Fira Mono";
+        font-size: 24px;
+        color: black;
+        padding-right: 9px;
+        margin-top: 1em;
+        span {
+            font-family: $font1;
+            font-size: 1rem;
+        }
+    }    
+    p.price-totaal {
+        font-family: "Fira Mono";
+        font-size: 24px;
+        color: black;
+        padding-right: 9px;
+
+    }    
+}
+
+

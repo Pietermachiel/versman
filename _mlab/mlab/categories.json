@@ -1,0 +1,29 @@
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840d8"},"title":"Bollen","title_english":"Bulbs"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840d9"},"title":"Bladgewassen","title_english":"Leafy corps"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840da"},"title":"Vruchtgewassen","title_english":"Fruit crops"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840db"},"title":"Slasoorten","title_english":"Lettuce"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840dc"},"title":"Stengelgewassen","title_english":"Stem crops"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840dd"},"title":"Koolsoorten","title_english":"Cabbage"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840de"},"title":"Peulvruchten","title_english":"Legume"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840df"},"title":"Kruiden","title_english":"Herbs"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840e0"},"title":"Appels","title_english":"Apples"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840e1"},"title":"Exoten","title_english":"Exotic fruits"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840e2"},"title":"Bessen","title_english":"Berries"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840e3"},"title":"Steenvruchten","title_english":"Stone fruits"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840e4"},"title":"Citrusvruchten","title_english":"Citrus"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840e5"},"title":"Noten","title_english":"Nuts"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840e6"},"title":"Granen","title_english":"Grains"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840e7"},"title":"Specerijen","title_english":"Spices"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840e8"},"title":"Vis","title_english":"Fish"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840e9"},"title":"Peren","title_english":"Pears"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840ea"},"title":"Kiemen","title_english":"Germinate"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840eb"},"title":"Zilt","title_english":"Salty"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840ec"},"title":"Planten","title_english":"Plants"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840ed"},"title":"Bloemen","title_english":"Flowers"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840ee"},"title":"Houdbaar","title_english":"Storable"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840ef"},"title":"Leeg","title_english":"Empty"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840f0"},"title":"Vlees","title_english":"Meat"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840f1"},"title":"Paddenstoelen","title_english":"Mushrooms"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840f2"},"title":"Wortels","title_english":"Roots"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840f3"},"title":"Aardappelen","title_english":"Potatoes"}
+{"_id":{"$oid":"5d18f4e38d22ae5a5e0840f4"},"title":"Knollen","title_english":"Tubers"}

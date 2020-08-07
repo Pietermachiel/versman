@@ -1,0 +1,17 @@
+/*------------------------------------*\
+  #PAGES-TABLE
+\*------------------------------------*/
+
+.table-box {
+    table {
+        border: 0; 
+    }
+    table th, table td {
+        border: 0;
+        padding: 0.75rem;
+        padding-left: 0;
+    }
+    .heart {
+        width: 24px;
+    }
+}

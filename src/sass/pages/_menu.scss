@@ -1,0 +1,291 @@
+/*------------------------------------*\
+  #PAGES-MENU
+\*------------------------------------*/
+
+
+.menu-comment {
+	max-width: 1024px;
+	// height: 300px;
+	background: mistyrose;
+	display: block;
+}
+
+.menu-comment__content {
+	position: relative;
+	margin: auto;
+	// margin-bottom: 1em;
+	width: 100%;
+	column-gap: 50px;
+	padding: 1em;
+	h5 {
+		margin-top: -1em;
+	}
+	@media (min-width: $on-palm) {
+		columns: 2;
+	}
+}
+
+.menu-list{
+	display: block;
+	font-size: 24px;
+}
+.menu-box {
+	// background: #fff3ee;
+	// margin-top: 130px;
+	@media (min-width: $on-palm) {
+		// margin-top: 140px;
+
+	}
+    .menu-box__inner {
+		width: 100%;
+	    padding-top: 25px;
+	    margin: 0 20px;
+    	// margin-top: -63px;
+    	@media (min-width: $on-palm) {
+    		margin: auto;
+    		// margin-top: -74px;
+			width: 668px;
+	    	padding-top: 50px;
+	    	padding-bottom: 100px;
+	    	columns: 2 270px;
+	    	column-fill: auto;
+	    	column-gap: 1.5em;
+		}
+		@media (min-width: $on-tablet) {
+			width: 924px;
+	    	columns: 3 270px;
+	    	// column-fill: auto;
+	    	// column-gap: 1.5em;
+		}
+		@media (min-width: $on-laptop) {
+		width: 1024px;
+		}
+    }
+}
+.menu-box__rose {
+	background: #fff3ee;
+}
+.menu-box__groen {
+	background: #e8f3e9;
+}
+.menu-box__item {
+	margin-bottom: 9px;
+	// a.menu-box__link {
+	// 	color: black;
+	// }
+	.menu-box__title {
+		font-weight: 300;
+		margin-left: 2em;
+		text-indent: -1em;
+		margin-right: 40px;
+		margin-bottom: 0;
+		line-height: 1.1em;
+		a.menu-box__link {
+			font-size: 21px;
+		}
+		span {
+		  font-family: 'Rufina', serif; 
+		  font-style: normal; 
+		  color: red; 
+		  margin-top: -0.5em;
+		  font-size: 22px;
+		}
+
+	}
+}
+.menu-box__prod {
+	margin-bottom: 9pt;
+	font-weight: 600;
+	a {
+		color: black;	
+	    font-weight: 600;
+	    display:inline-block;
+	    line-height:1em;
+	    position: relative;
+	    border-bottom: 1px solid rgba(90,90,90,0.2);
+	    padding-bottom: 3px;
+	    text-decoration: none;	
+	}
+}
+
+.menu-box__product {
+	font-weight: 300;
+    margin-left: 2em;
+    text-indent: -1em;
+    margin-right: 40px;
+	color: black;
+    font-size: 21px;
+   	a {
+		color: black;	
+	    font-weight: 600;
+	    display:inline-block;
+	    line-height:1em;
+	    position: relative;
+	    border-bottom: 1px solid rgba(90,90,90,0.2);
+	    padding-bottom: 3px;
+	    text-decoration: none;	
+	}
+}
+
+.menu {
+	margin-bottom: 50px;
+}
+
+.cart-list__link {
+  font-size: 20px;	
+  line-height: 1.1;
+  font-weight: 600;
+  color: rgb(73,141,220);
+  span {
+  	color: red;
+  	font-family: $font2;
+  }
+  @media (min-width: $on-palm) {
+  	// font-size: 36px;
+  }
+}
+
+
+.menu-title {
+	font-weight: 100;
+	font-size: 48px;
+	margin: auto;
+	margin-bottom: 54px;
+	text-align: center;
+}
+
+ul#show-cart {
+	margin-bottom: 2em;
+	button {
+		border: 0;
+	    font-size: 15px;
+	    color: silver;
+	    &:hover {
+			background: red;
+			border-radius: 50%;
+			width: 23px;
+			color: white;
+	    }
+	}
+	ul {
+		margin-bottom: 1em;
+	}
+}
+a.cart-list__link {
+	color: $menu;
+}
+
+.show-cart {
+	margin: 0 auto;
+	display: none;
+}
+
+#op-het-menu {
+	display: none;
+	position: absolute;
+    z-index: 99999;
+	top: 20px;
+	right: 75px;
+	height: 200px;
+	width: 200px;
+	background: red;
+	color: white;
+	padding: 30px 25px;
+	p {
+		margin-bottom: 1em;
+	}
+}
+
+#op-het-menu:after {
+    background-color: transparent;
+    border-bottom: 1.375em solid red;
+    border-left: 1.375em solid transparent;
+    border-right: 1.375em solid transparent;
+    top: -29px;
+    left: 170px;
+    content: '';
+    height: 0;
+    margin-left: -1.375em;
+    position: absolute;
+    width: 0;
+}
+
+.total-output {
+	margin-top: 1em;
+	ul {
+		border-bottom: 1px solid gainsboro;
+		padding-bottom: 1em;
+	}
+}
+
+.menu-insert {
+	display: flex;
+	flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 1em;
+    @media (min-width: $on-tablet) {
+    	width: 1024px;
+    }
+}
+
+.dag-datum-maand {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	border-bottom: 2px solid mistyrose;
+    color: black;
+    text-align: center;
+    padding-top: 1em;
+    a {
+	    font-size: 24px;
+	    letter-spacing: 0.05em;
+	    color: black;
+	    background: transparent;
+	    padding: 0.5em;
+	    width: 50%;
+	    display: block;
+	    margin-left: 0;
+    }
+    @media (min-width: $on-tablet) {
+    	width: 1024px;
+	    a {
+	    	width: 25%;
+	    }
+    }
+
+}
+
+.date-insert {
+	padding: 0.5em 1em;
+	padding-top: 14px;
+	background: red;
+	color: white;
+	width: 50%;
+	@media (min-width: $on-tablet) {
+		width: 25%;
+	}
+}
+
+.date-product {
+	display: none;
+	font-size: 19px;
+    font-weight: 600;
+    padding-top: 12px;
+    width: 25%;
+    letter-spacing: 0.05em;
+    @media (min-width: $on-tablet) {
+    	display: inline;
+    }
+}
+
+.date-product-date {
+	font-size: 24px;
+    font-weight: 400;
+    width: 25%;
+    letter-spacing: 0.05em;
+    @media (min-width: $on-tablet) {
+    	font-size: 34px;
+    	padding-left: 1em;
+    }
+}
+

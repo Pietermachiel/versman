@@ -1,0 +1,36 @@
+.page-title_giddyup {
+	font-family: giddyup-std;
+	font-size: 90px;
+	text-align: center;
+	width: 100%;
+	max-width: 1025px;
+	margin: auto;  
+	-webkit-text-stroke: 1px #f4f8fb;
+}
+
+.page-chapeau {
+	font-size: 22px;
+    text-align: center;
+    width: 100%;
+    max-width: 1025px;
+    margin: auto;
+    position: absolute;
+    top: 73px;
+    right: -156px;
+    color: #03ca03;
+    font-weight: 400;
+}
+
+.page-box {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+}
+
+.page-box-left {
+	width: calc(40% - 20px);
+}
+
+.page-box-right {
+	width: calc(60% - 20px);
+}

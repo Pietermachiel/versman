@@ -1,0 +1,419 @@
+/*------------------------------------*\
+  #BASICS-COLOR
+\*------------------------------------*/
+
+.brand-color { color: $brand-color;}
+.magenta { color: magenta;}
+.oceaan { color: $oceaan; }
+.ossen { color: $ossen; }
+.fuchsia { color: $fuchsia; }
+.wit { color: $wit; }
+.zwart { color: $zwart; }
+.bruin { color: $bruin; }
+.paars { color: $paars; }
+.cyclaam { color: $cyclaam; }
+.rood { color: $rood; }
+.roze { color: $roze; }
+.rose { color: $rose; }
+.leger { color: $leger; }
+.groen { color: $groen; }
+.gras { color: $gras; }
+.olijf { color: $olijf; }
+.oranje { color: $oranje; }
+.koffie { color: $koffie; }
+.geel { color: $geel; }
+.lemon { color: $citroen; }
+.grijs { color: $grijs; }
+.beige { color: $beige; }
+.marine { color: $marine; }
+.turquoise { color: $turquoise; }
+.lichtblauw { color: $lichtblauw; }
+.blauw { color: $blauw; }
+.felblauw { color: $felblauw; }
+.menu { color: $menu; }
+.aqua { color: $aqua; }
+.grijs-60 { color: $grijs-60; }
+.grijs-50 { color: $grijs-50; }
+.grijs-40 { color: $grijs-40; }
+.grijs-20 { color: $grijs-20; }
+.grijs-10 { color: $grijs-10; }
+
+
+.bg-zwart { background-color: $zwart; }
+.bg-wit { background-color: $wit; }
+.bg-rood { background-color: $rood; }
+.bg-roze { background-color: $roze; }
+.bg-fuchsia { background-color: $fuchsia; }
+.bg-cyclaam { background-color: $cyclaam; }
+.bg-oranje { background-color: $oranje; }
+.bg-geel { background-color: #f5f755; }
+.bg-paars { background-color: $paars; }
+.bg-groen { background-color: rgb(83, 227, 56); }
+.bg-gras { background-color: $gras; }
+.bg-leger { background-color: $leger; }
+.bg-lichtblauw { background-color: $lichtblauw; }
+.bg-gras { background-color: $gras; }
+.bg-olijf { background-color: $olijf; }
+
+
+.producten {
+  background: initial;
+  border: 0px solid transparent;
+}
+.aardappel { color: $bruin;}
+.aardbei { color: $rood;}
+.ananas { color: $gras;}
+.andijvie { color: $groen;}
+.ansjovis { color: $marine ;}
+.appel { color: $gras ;}
+.artisjok { color: $paars ;}
+.asperge { color: $grijs ;}
+.aubergine { color: $paars ;}
+.avocado { color: $groen ;}
+.banaan { color: $geel ;}
+.basilicum { color: $groen ;}
+.bataat { color: $bruin ;}
+.biet { color: $paars ;}
+.bleekselderij { color: $gras ;}
+.bloemkool { color: $grijs ;}
+.boerenkool { color: $groen ;}
+.bosui { color: $gras ;}
+.broccoli { color: $groen ;}
+.bruineboon { color: $bruin ;}
+.bulgur { color: $oranje ;}
+.burrata { color: $grijs ;}
+.cacao { color: $zwart ;}
+.canneloni { color: $bruin ;}
+.cantharel { color: $bruin ;}
+.champignon { color: $bruin ;}
+.chilipeper { color: $rood ;}
+.chineesekool { color: $groen ;}
+.citroen { color: $olijf ;}
+.coquilles { color: $bruin ;}
+.courgette { color: $paars ;}
+.dorade { color: $oranje ;}
+.druif { color: $paars ;}
+.duif { color: $grijs ;}
+.ei { color: $geel ;}
+.erwt { color: $groen ;}
+.fazant { color: $paars ;}
+.feta { color: $grijs ;}
+.gamba { color: $rood ;}
+.garnaal { color: $rose ;}
+.geit { color: $grijs ;}
+.gerst { color: $beige ;}
+.gierst { color: $beige ;}
+.haas { color: $bruin ;}
+.haring { color: $blauw ;}
+.hazelnoot { color: $bruin ;}
+.heek { color: $aqua ;}
+.heilbot { color: $grijs ;}
+.hert { color: $bruin ;}
+.kabeljauw { color: $grijs ;}
+.kalkoen { color: $rood ;}
+.kappertje { color: $groen ;}
+.kapucijner { color: $paars ;}
+.kidneyboon { color: $paars ;}
+.kikkererwt { color: $beige ;}
+.kip { color: $rood ;}
+.knoflook { color: $grijs ;}
+.knolselderij { color: $bruin ;}
+.kokosnoot { color: $bruin ;}
+.komkommer { color: $groen ;}
+.konijn { color: $beige ;}
+.kool { color: $groen ;}
+.koolraap { color: $bruin ;}
+.koolrabi { color: $paars ;}
+.krab { color: $bruin ;}
+.kreeft { color: $rood ;}
+.kwark { color: $grijs ;}
+.lam { color: $grijs ;}
+.linze { color: $bruin ;}
+.mais { color: $oranje ;}
+.makreel { color: $turquoise ;}
+.mango { color: $oranje ;}
+.melk { color: $grijs ;}
+.mierikswortel { color: $grijs ;}
+.mossel { color: $zwart ;}
+.mozarella { color: $grijs ;}
+.munt { color: $grijs ;}
+.oesterzwam { color: $grijs ;}
+.paksoi { color: $groen ;}
+.palmkool { color: $groen ;}
+.pangasius { color: $lichtblauw ;}
+.paprika { color: $rood ;}
+.parelgort { color: $grijs ;}
+.parmigiano { color: $olijf ;}
+.pastinaak { color: $beige ;}
+.peer { color: $groen ;}
+.peterselie { color: $groen ;}
+.pinda { color: $koffie ;}
+.pinda { color: $oranje ;}
+.pompoen { color: $oranje ;}
+.portobello { color: $koffie ;}
+.prei { color: $groen ;}
+.pruim { color: $paars ;}
+.rabarber { color: $rood ;}
+.radijs { color: $rood ;}
+.ricotta { color: $grijs ;}
+.rijst { color: $grijs ;}
+.rodekool { color: $cyclaam ;}
+.rodeui { color: $cyclaam ;}
+.rogge { color: $bruin ;}
+.room { color: $geel ;}
+.roomboter { color: $geel ;}
+.rund { color: $bruin ;}
+.sardine { color: $marine ;}
+.schaap { color: $grijs ;}
+.schelvis { color: $grijs ;}
+.shiitake { color: $koffie ;}
+.sinaasappel { color: $oranje ;}
+.sjalot { color: $gras ;}
+.sla { color: $gras ;}
+.sliptong { color: $blauw ;}
+.snijbiet { color: $paars ;}
+.snijboon { color: $groen ;}
+.sojaboon { color: $bruin ;}
+.spelt { color: $beige ;}
+.sperzieboon { color: $groen ;}
+.spinazie { color: $groen ;}
+.spruitje { color: $groen ;}
+.st.-jacobsschelp { color: $grijs ;}
+.tarwe { color: $beige ;}
+.tomaat { color: $rood ;}
+.tonijn { color: $blauw ;}
+.topinamboer { color: $zwart ;}
+.tuinboon { color: $groen ;}
+.ui { color: $beige ;}
+.varken { color: $rose ;}
+.venkel { color: $grijs ;}
+.venusschelp { color: $grijs ;}
+.waterkers { color: $groen ;}
+.wildzwijn { color: $bruin ;}
+.witlof { color: $grijs ;}
+.witteboon { color: $grijs ;}
+.wortel { color: $oranje ;}
+.yoghurt { color: $grijs ;}
+.zalm { color: $rose ;}
+.zeebaars { color: $blauw ;}
+.zeekraal { color: $groen ;}
+.zwarteboon { color: $zwart ;}
+
+
+
+// color
+.color_nederland {
+	color: rgb(2, 153, 70);
+	&:hover {
+		color: rgb(63,185,53);
+	}
+}
+
+.color_europa,
+.color_duitsland,
+.color_spanje,
+.color_italie,
+.color_portugal,
+.color_frankrijk {
+	color: rgb(248,168,0);
+	&:hover {
+		color: rgb(222,136,0);
+	}
+}
+.color_wereld,
+.color_egypte,
+.color_israel,
+.color_canada,
+.color_verenigde-staten,
+.color_mexico,
+.color_peru,
+.color_costa-rica,
+.color_equador,
+.color_colombia,
+.color_peru,
+.color_mada-gasgar,
+.color_argentinie,
+.color_turkije,
+.color_marocco,
+.color_thailand {
+	color: rgb(230,75,151); // 180,45
+	&:hover {
+		color: rgb(180,45,151);
+	}
+}
+
+
+// dp_color
+
+.dp_color_nederland {
+	color: rgb(2, 153, 70);
+	&:hover {
+		color: rgb(63,185,53);
+	}
+}
+.dp_color_direct-van-de-boer {
+	background-color: $brand-color;
+	color: white;
+	padding: 0 10px;
+	font-size: 18px !important;
+	&:hover {
+		background-color: rgb(63,185,53);
+		color: white;
+	}
+}
+.dp_color_europa,
+.dp_color_duitsland,
+.dp_color_spanje,
+.dp_color_italie,
+.dp_color_portugal,
+.dp_color_frankrijk {
+	color: rgb(248,168,0);
+	&:hover {
+		color: rgb(222,136,0);
+	}
+}
+.dp_color_wereld,
+.dp_color_argentinie,
+.dp_color_canada,
+.dp_color_colombia,
+.dp_color_costa-rica,
+.dp_color_dominicaanse-republiek,
+.dp_color_egypte,
+.dp_color_equador,
+.dp_color_israel,
+.dp_color_ivoorkust,
+.dp_color_marocco,
+.dp_color_mexico,
+.dp_color_mada-gasgar,
+.dp_color_peru,
+.dp_color_turkije,
+.dp_color_thailand,
+.dp_color_verenigde-staten,
+.dp_color_zuid-afrika {
+	color: rgb(230,75,151); // 180,45
+	&:hover {
+		color: rgb(180,45,151);
+	}
+}
+
+
+// colord
+
+.colord_nederland {
+	color: rgb(55, 160, 46);
+}
+.colord_direct-van-de-boer {
+	color: rgb(32, 95, 26);   // rgb(53, 84, 185)
+}
+.colord_europa,
+.colord_duitsland,
+.colord_spanje,
+.colord_italie,
+.colord_portugal,
+.colord_frankrijk {
+	color: rgb(222,136,0);
+}
+.colord_wereld,
+.colord_egypte,
+.colord_israel,
+.colord_canada,
+.colord_verenigde-staten,
+.colord_mexico,
+.colord_peru,
+.colord_costa-rica,
+.colord_equador,
+.colord_mada-gasgar,
+.colord_argentinie,
+.colord_turkije,
+.colord_marocco,
+.colord_thailand {
+	color: rgb(180,45,151); // 180,45
+}
+
+
+// bg
+
+.bg_nederland {
+	background-color: #CEF3E1 !important;
+}
+.bg_direct-van-de-boer {
+	background-color: #CEF3E1 !important;
+}
+.bg_europa,
+.bg_duitsland,
+.bg_spanje,
+.bg_italie,
+.bg_portugal,
+.bg_frankrijk {
+	background-color: rgb(255,234,182);
+}
+.bg_wereld,
+.bg_canada,
+.bg_verenigde-staten,
+.bg_mexico,
+.bg_peru,
+.bg_egypte,
+.bg_israel,
+.bg_costa-rica,
+.bg_equador,
+.bg_mada-gasgar,
+.bg_argentinie,
+.bg_turkije,
+.bg_marocco,
+.bg_thailand {
+	background-color: rgb(252,232,238);
+}
+
+
+// bg100
+
+.bg100_nederland {
+	background-color: #43C631 !important;
+}
+.bg100_direct-van-de-boer {
+	background-color: rgb(32, 95, 26) !important;   // rgb(53, 84, 185)
+}
+.bg100_europa,
+.bg100_duitsland,
+.bg100_spanje,
+.bg100_italie,
+.bg100_portugal,
+.bg100_frankrijk {
+	background-color: rgb(248,168,0);
+}
+.bg100_wereld,
+.bg100_canada,
+.bg100_verenigde-staten,
+.bg100_mexico,
+.bg100_peru,
+.bg100_egypte,
+.bg100_israel,
+.bg100_costa-rica,
+.bg100_equador,
+.bg100_mada-gasgar,
+.bg100_argentinie,
+.bg100_turkije,
+.bg100_marocco,
+.bg100_thailand {
+	background-color: rgb(230,75,151);
+}
+
+
+
+
+
+// buttons
+
+.button_nederland {
+	background-color: #43C631 !important;
+}
+.button_europa {
+	background-color: rgb(248,168,0);
+}
+.button_wereld {
+	background-color: rgb(230,75,151);
+}
+.button_ocean{
+	background-color: rgb(57,195,212);
+}
+

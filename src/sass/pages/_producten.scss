@@ -1,0 +1,483 @@
+/*------------------------------------*\
+  #Producten
+\*------------------------------------*/
+
+.active-category {
+	max-width: 900px;
+	margin: auto;
+	h1 {
+	text-align: center;		
+	}
+}
+
+.producten {
+	max-width: 992px;
+	margin: auto;	
+	@media (min-width: $on-tablet) {
+		margin-top: 70px;
+	}
+}
+
+.category-color {
+	// font-size: 21px;
+	background: white;  // f1f2fc
+	padding: 5px 0;
+	// margin: 3px 3px !important;
+	font-weight: 500;
+	// border: 2px solid #eee;
+	// border-bottom: 0;
+  }
+
+.product {
+	display: inline-block;
+	border-bottom: 1px solid #40d439;
+}
+
+.product-lead_img {
+	width: calc(40% - 20px);
+}
+.product-lead_text {
+	width: calc(60% - 20px);
+	h1 {
+		span {
+			font-size: 42px;
+			color: black;
+		}
+	}
+}
+.producten-filter {
+	width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	padding: 1em 36px;
+	columns: 2;
+	column-gap: 0;
+	background: white;
+    // text-align: center;
+	@media (min-width: $on-tablet) {
+		columns: 3;
+	}
+	@media (min-width: $on-tablet) {
+		margin-top: 0;
+		columns: 4;
+	}
+	@media (min-width: $on-laptop) {
+		columns: 5;
+	}
+	a {
+		text-decoration: none;
+	}
+	p{
+		font-weight: 400;
+		font-size: 16px;
+		margin: 0;
+		margin-bottom: 1px;		
+		// padding: 4 9px;
+		display: block;
+		cursor: pointer;
+		&:hover {
+		    font-weight: 400 !important;
+		    letter-spacing: 0.03em !important;
+		    background: $brand-color;
+			color: white !important;
+		}
+		@media (min-width: $on-tablet) {
+			padding: 4 9px;
+			// display: inline-block;
+		}
+	}
+	span {
+		color: black;
+	}
+    span.products {
+    	display: block;
+	    // padding-top: 36px;
+	    position: relative;
+	    font-size: 19px;
+	    font-weight: 300;
+	    text-align: center;
+		background: transparent;
+		border: 0;
+		&:hover {
+		    letter-spacing: 0.01em !important;
+		    font-weight: 300 !important;
+		    background: transparent;
+		    color: black !important;
+		}
+	}
+}
+
+.aardappelen { color: $bruin; }
+.appels { color: $appel; }
+.bessen { color: $rood; }
+.bladgewassen { color: $groen; }
+.exoten { color: #e64b97; }
+.citrusvruchten { color: $gras;} 
+.koolsoorten { color: $groen; }  
+.kruiden { color: $appel; }  
+.peulvruchten { color: $paars; }  
+.peren { color: $appel; }  
+.noten { color: $bruin; }  
+.slasoorten { color: $appel; }  
+.knollen { color: $koffie; }  
+.steenvruchten { color: $oranje; }  
+.stengelgewassen { color: $groen; }  
+.paddenstoelen { color: $grijs; }  
+.vruchtgewassen { color: $cyclaam; }  
+.vis { color: $blauw; }  
+.wortels { color: $oranje; }  
+
+.pr-box {
+	width: calc(100% - 25px);
+	margin: auto;
+    margin-top: 50px;
+	@media (min-width: $on-tablet) {
+		width: 668px;
+	}
+	@media (min-width: $on-tablet) {
+		width: 924px;
+	}
+	@media (min-width: $on-laptop) {
+		width: 1024px;
+	}
+}
+
+
+// right
+
+.pr-box-right {
+	display: table-footer-group;
+	p {
+		display: none;
+	}
+	h5 {
+		color: white;
+		font-weight: 600;
+		letter-spacing: 0.05;
+		background: red;
+		display: inline;
+		padding: 15px;
+		// margin-left: 25px;
+	}
+	@media (min-width: $on-tablet) {
+		display: block;
+		width: 40%;
+		float: right;
+		p {
+			display: block;
+		}
+	}
+	@media (min-width: $on-tablet) {
+		width: 40%;
+	}
+	@media (min-width: $on-laptop) {
+		
+	}
+}
+
+.pr-box-right__flex {
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background: #f6f6f6;
+	@media (min-width: $on-tablet) {
+		// display: block;
+		background: transparent;
+	}
+}
+
+.pr-box-right__outer {
+	width: 50%;
+	margin-bottom: 30px;
+	h4 {
+    	padding-left: 20px;
+		font-size: 18px;
+		margin-top: 0.5em;
+	}
+		img {
+		width: 90%;
+	}
+	@media (min-width: $on-tablet) {
+		width: calc(50% - 25px);
+		img {
+			width: 100%;
+		}
+	}
+	@media (min-width: $on-tablet) {
+		
+	}
+}
+
+
+
+// left
+
+
+.pr-box-left {
+	position: relative;
+	display: table-header-group;
+	@media (min-width: $on-tablet) {
+		display: block;
+		width: 60%;
+		padding-right: 50px;
+	}
+	@media (min-width: $on-tablet) {
+		width: 60%;
+		padding-right: 50px;
+	}
+	@media (min-width: $on-laptop) {
+		
+	}
+}
+
+.pr-box-left__flex {
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background: #f6f6f6;
+	@media (min-width: $on-tablet) {
+		display: block;
+		background: transparent;
+	}
+}
+
+
+.pr-box-left__outer {
+	width: 64%;
+	position: relative;
+	margin-bottom: 24px;
+	// background: rgb(247, 239, 239);
+	// border: 1px solid rgb(252, 209, 209);
+	@media (min-width: $on-tablet) {
+		width: 100%;
+		margin-bottom: 75px;
+	}	
+	@media (min-width: $on-tablet) {
+		width: 100%;
+		margin-bottom: 75px;
+		background: rgb(247, 239, 239);
+		border: 1px solid rgb(252, 209, 209);	
+	}
+}
+
+.pr-box-left__top {
+    width: 70%; 
+	@media (min-width: $on-tablet) {
+		width: 100%;
+		height: 100px;
+		position: absolute;
+	}
+}
+
+.pr-box-left__img {
+	img {
+		width: 100%;
+	    height: 100%;
+	    // border-radius: 50%;
+	    border: 1px solid silver;
+	}
+	h4 {
+		align-self: center;
+		padding-left: 18px;
+    	margin-top: 0.5em;
+    	font-size: 18px;
+	}
+	@media (min-width: $on-tablet) {
+		width: 100px;
+		display: block;
+		margin: auto;
+		h4 {
+			display: none;
+		}
+  	}
+	@media (min-width: $on-tablet) {
+		width: 200px;
+		margin: 0;
+	}
+}
+
+
+.pr-box-left__bottom {
+	display: none;
+	position: relative;
+	text-align: left;
+	h4 {
+		font-size: 36px;
+		padding-top: 15px;
+	}
+	h5 {
+		font-size: 28px;
+		font-weight: 200;
+		padding-bottom: 5px;
+	}
+	h6 {
+		font-weight: 400;
+	}
+	span {
+		font-weight: 200;
+		font-size: 21px;
+	}
+	p:first-child {
+		// border-bottom: 1px solid red;
+		margin-bottom: 0;
+		padding-top: 25px;
+	}
+	p:last-child {
+	    font-size: 21px;
+	    font-family: "Rufina";
+	    padding-right: 50px;
+	    margin-left: -110px;
+	    margin-bottom: 0;
+	    padding-bottom: 50px;
+	}
+	span {
+	    font-family: "Rufina";
+		text-align: right; 
+		display: block; 
+		padding-right: 75px;
+	}
+	@media (min-width: $on-tablet) {
+		display: block;
+		h4 {
+			padding-top: 30px;
+			margin-left: 25px;
+		}
+		p:first-child {
+			padding-left: 140px;
+		}		
+		p:last-child {
+	    	margin-left: 25px;
+		}
+	}
+	@media (min-width: $on-tablet) {
+		margin-top: 50px;
+		margin-left: 225px;
+		h4 {
+			margin-left: 0;
+		}
+		p:first-child {
+			border-bottom: 0;
+			margin-bottom: 1em;
+			padding-left: 0;
+		}		
+		p:last-child {
+			margin-top: 75px;
+			margin-left: -160px;
+		}
+	}
+}
+
+
+
+
+
+
+
+// layout-producten
+
+.pro-box {
+	position: relative;
+	width: 100%;
+	margin: auto;
+	margin-top: 1em;
+	img {
+		width: 200px;
+		height: 200px;
+	}
+	@media (min-width: $on-tablet) {
+	}
+	@media (min-width: $on-tablet) {
+		max-width: 992px;
+		margin: auto;	
+	}
+	@media (min-width: $on-laptop) {
+	}
+
+}
+
+
+.pro-box-kop {
+    padding: 50px;
+    font-family: $font1;
+  	font-size: 19px;
+	z-index: 1;
+	position: absolute;
+    top: 0;
+}
+
+.pro-box-recepten {
+	position: relative;
+	z-index: 1;
+	width: calc(100% - 25px);
+	@media (min-width: $on-tablet) {
+		width: calc(40% - 20px);
+	}
+	@media (min-width: $on-tablet) {
+		width: calc(40% - 20px);
+		h5 {
+			font-weight: 500;
+			font-size: 28px;
+			margin-left: 2em;		
+		}
+	}
+	@media (min-width: $on-laptop) {
+	}
+}
+.pro-box-items {
+	width: calc(100% - 20px);
+	@media (min-width: $on-tablet) {
+		width: calc(60% - 20px);
+		margin-left: 40px;
+		margin-top: 10px;
+	}
+	@media (min-width: $on-tablet) {
+		width: calc(60% - 20px);
+	}
+	@media (min-width: $on-laptop) {
+	}
+}
+
+.pro-box-product {
+	position: relative;
+	z-index: -1;
+	margin: auto;
+	img {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+.pro-box-recept-box {
+    margin-top: 25px;	
+    margin-bottom: 25px;	
+}
+
+
+// .pro-box-recepten {
+// 	margin-bottom: 1em;
+// 	h5 {
+// 		font-size: 21px;
+// 		font-weight: 300;
+// 	    margin-left: 2em;
+// 	    text-indent: -1em;
+// 	    margin-right: 40px;;
+// 	}
+// 	span.index {
+// 		font-family: 'Rufina', serif; 
+// 		font-style: normal; 
+// 		color: red; 
+// 		margin-top: -0.5em;
+// 	}
+// 	span.auteur {
+// 		color: $text-color;
+// 	}
+// 	h6 {
+// 		font-size: 19px;
+// 		font-weight: 600;
+// 		margin-bottom: 9px;
+// 	}
+// }
+
+

@@ -1,0 +1,38 @@
+/*------------------------------------*\
+  #NAVIGATION-FOOTER
+\*------------------------------------*/
+
+.footer {
+	position: relative;
+	clear: both;
+	background: rgb(242,238,232);
+	// background: #53E338;
+	// margin-top: 2rem;
+}
+
+.footer-box {
+	height: 400px;
+	position: relative;
+	padding-top: 1.5rem;
+	h1 {
+		position: absolute;
+		font-weight: 300;
+		right: 0;
+		top: 2.5rem;
+		color: black;
+		line-height: 48px;
+    	font-family: giddyup-std;
+	}
+	p {
+		font-size: 18px;
+		position: absolute;
+		left: 0;
+		bottom: 2em;
+	}
+	span.copyright {
+		font-size: 17px;
+	}
+	@media (min-width: $on-palm) {
+		height: 320px;		
+	}
+}

@@ -1,0 +1,512 @@
+/*------------------------------------*\
+  #PAGES-RECEPTEN
+\*------------------------------------*/
+
+.salade { color: $gras; } 
+.soep { color: $olijf; }  
+.sauzen { color: $bruin; }  
+.pasta { color: $koffie; }  
+.granen { color: $grijs; }  
+.vlees { color: $rood; }  
+.vis { color: $felblauw; }  
+.vega { color: $groen; }  
+.ei { color: $bruin; }  
+.groente { color: $groen; }  
+.fruit { color: $rood; }  
+.zoet { color: magenta; }  
+.gebak  { color: $geel; }
+.brood  { color: $geel; }  
+.inmaken  { color: $cyclaam; }  
+.snacks  { color: $geel; }  
+
+.fade-enter {
+	opacity: 0;
+	z-index: 1;
+  }
+  
+  .fade-enter.fade-enter-active {
+	opacity: 1;
+	transition: opacity 250ms ease-in;
+  }
+  .recepten-filter__box {
+	// background: #fff3ee;
+	margin-bottom: 3em;
+	}
+	
+	.recepten-dish {
+		font-size: 2rem;
+	}
+
+  .recepten-filter {
+	  width: 100%;
+	  margin: 0 auto;
+	  margin-top: 72px;
+	  text-align: center;
+	  @media (min-width: $on-palm) {
+		  width: 600px;
+		  margin-top: 0;
+	  }
+	  span {
+		  font-weight: 600;
+		  margin: 0 2px;
+		  padding: 0 10px;
+		  display: inline-block;
+		  cursor: pointer;
+		  &:hover {
+			  font-weight: 400 !important;
+			  letter-spacing: 0.03em !important;
+			  background: black;
+			  color: white !important;
+		  }
+	  }
+	  span.recepten {
+		  display: block;
+		  padding-top: 1em;
+		  position: relative;
+		  font-size: 19px;
+		  font-weight: 300;
+		  text-align: center;
+		  &:hover {
+			  letter-spacing: 0.01em !important;
+			  font-weight: 300 !important;
+			  background: transparent;
+			  color: black !important;
+		  }
+	  }
+
+	}
+		
+	.recepten-link {
+	display: block;
+	padding-top: 1em;
+	position: relative;
+	font-size: 19px;
+	font-weight: 300;
+	text-align: center;
+  }
+  
+
+  
+  .menu-title__sprekend {
+	  font-family: $font1;
+	  font-weight: 700;
+	  font-size: 19px;
+	  letter-spacing: 0.05em;
+	  color: $text-color;
+  }
+  
+  .add-to-cart {
+	  font-family: $font1;
+	  font-size: 19px;
+  }
+  
+  .recepten-container {
+	background-color: $mistyrose;
+	margin-top: 3em;
+}
+
+.recepten-box {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.ingredienten-box {
+	position: relative;
+	background: transparent;  //rgb(255,243,238)
+	width: 100%;
+	height: 100%;	
+	@media (min-width: $on-palm) {
+		width: 30%;
+	}
+}
+
+.ingredienten-box-inner {
+	padding: 16px;
+	p {
+		padding-left: 1em;
+		color: rgb(130,130,130);
+		letter-spacing: 0.075em;
+	}
+	.recepten-items {
+		margin-bottom: 1em;
+	}
+	h5 {
+		font-weight: 700;
+	}	
+	li:first-child {
+		border-top: 1px solid white;
+	}
+	li:last-child {
+		border-bottom: 0;
+	}
+	li {
+		border-bottom: 1px solid white;
+		padding: 0.75em 0;
+	}
+	li, input, label {
+		margin-bottom: 0;
+		font-family: 'Rufina', serif;
+		list-style: none;
+		font-size: inherit;
+		line-height: 1.4em;
+	}
+	input[type=checkbox] + label {
+	  color: black;
+	  font-size: inherit;
+	  margin-bottom: 0;
+	} 
+	input[type=checkbox]:checked + label {
+	  color: $brand-color;
+	} 
+
+	@media (min-width: $on-palm) {
+		width: 100%;
+		max-width: 924px;
+		columns: 2 270px;
+		margin: auto;
+		padding: 36px;
+		padding-right: 18px;
+		padding-bottom: 6px;
+	}
+	@media (min-width: $on-tablet) {
+		width: 100%;
+		max-width: 1004px;
+		columns: 3 270px;
+	}
+	@media (min-width: $on-laptop) {
+		width: 100%;
+		max-width: 1440px;
+		columns: 3 270px;
+	}
+}
+
+  
+.recepten-box-onder {
+	position: relative;
+	background: transparent;
+	padding-top: 1em;
+	width: 100%;
+	height: 100%;	
+	@media (min-width: $on-palm) {
+		width: 70%;
+	}
+	h1 {
+		font-size: 36px;
+	}
+	.recepten-box-onder__inner {
+		padding: 16px;
+		margin: auto;
+		padding-bottom: 100px;
+		p.receptvoor {
+			color: rgb(130,130,130);
+			letter-spacing: 0.075em;
+		}
+		span.dish {
+			font-weight: 500;
+			color: $text-color;
+		}
+		span.personen {
+			border-radius: 50%;
+		    border: 1px solid white;
+		    padding: 5px 10px;
+		    font-size: 18px;
+			border-radius: 50%;
+		}
+		h1 {
+			font-size: 30px;
+			margin-bottom: 8px;
+			line-height: 1.1;
+			font-weight: 700;
+    		letter-spacing: 0.03em;
+		}
+		@media (min-width: $on-palm) {
+			padding: 16px 36px;
+			h1 {
+				font-size: 42px;
+			}
+		}
+	}
+}
+  
+  .recipe-overview {
+	  padding: 0;
+	  margin: 0;
+	  margin-bottom: 2em;
+	  margin-left: -2px;
+	  li {
+		  display: flex;
+		  margin-right: 18px;
+		  margin-bottom: 9px;
+		  margin-left: -5px;
+		  svg {
+			  fill: $grijs-60;
+		  }
+		  span {
+			  margin-left: 15px;
+		  }
+	  }
+	  @media (min-width: $on-palm) {
+		  li {
+			  margin-left: 0;
+		  }
+	  }
+  }
+  .recipe-overview__icon {
+	  background: white;
+	  border-radius: 50%;
+	  position: relative;
+	  z-index: 1;
+	  display: inline-block;
+	  width: 30px;
+	  height: 30px;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+  }
+  .recipe-contents {
+	  margin-bottom: 1em;
+	  line-height: 1.4;
+	  ul {
+		  color: text-color;
+		  padding-top: 0.5em;
+		  padding-bottom: 0.5em;
+		  // padding-left: 28px;
+		  position: relative;
+		  :not(:last-child)::after {
+			  // background-color: mistyrose;
+			  bottom: -0.75em;
+			  content: '';
+			  left: 0;
+			  margin-left: -21px;
+			  position: absolute;
+			  top: 0.75em;
+			  width: 2px;
+		  }
+		  li {
+			  display: block;
+			  letter-spacing: 1px;
+			  margin-bottom: 0.25em;
+			  position: relative;
+		  }
+	  }
+  
+	  ol {
+		  padding: 0;
+		  li{
+			  counter-increment: step-counter;
+			  list-style-type: none;
+			  position: relative;
+			  margin-left: 2em;
+			  &:before {
+				  content: counter(step-counter);
+				  margin-right: 0px;
+				  background-color: #ff4e4e;
+				  color: white;
+				  font-size: .7em;
+				  position: absolute;
+				  left: -42px;
+				  top: -2px;
+				  width: 25px;
+				  padding: 5px;
+				  text-align: center;
+			  }
+		  }
+	  }
+	  .directions {
+		  flex: 1;
+		  i.dir {
+			  p {
+				  display: block;
+				  font-family: 'Rufina', serif;
+			  }
+  
+		  }	
+	  }
+  }
+  .recipe-ingredients {
+	  font-family: 'Rufina', serif;
+	  line-height: 1.6em;
+	  text-align: left;
+	  p {
+		  display: block;
+		  font-family: 'Rufina', serif;
+		  text-align: left;
+	  }
+  }
+  .recipe-basis {
+	  font-style: italic;
+	  color: $blauw;
+  }
+  
+  p.aanvullend {
+	  margin-top: 1em;
+	  margin-bottom: 1em !important;
+	  font-family: $font1 !important;
+  }
+  p.sub {
+	  font-family: $font1 !important;
+	  color: $menu;
+	  span {
+		  font-family: $font2;
+		  color: $brand-color;
+	  }
+  }
+  li.ingredients {
+	  text-align: left;
+  }
+  
+  
+  .recipe-body {
+	  font-size: 21px;
+	  color: $menu;
+	  font-weight: 600;
+	  margin-bottom: 1em;
+	  span {
+		  font-size: 21px;
+		  font-weight: 300;
+	  }
+  }
+  
+  .kopregel-box {
+	font-size: 21px;
+	font-weight: 500;
+	line-height: 24px;
+	width: 600px;
+	margin: 50px auto 50px;
+	text-align: center; }
+	// .filter-box a {
+	//   color: #111; }
+  
+  .categories-tags {
+	  display: flex;
+	  flex-flow: row wrap;
+	  justify-content: center;
+	  button:focus {
+		  outline:0;
+	  }
+	  button:hover {
+		  color: orange;
+	  }
+	  a {
+		  border-bottom: 0;
+	  }
+	  button.categories-tags__button {
+		  background: transparent;
+		  padding: 0;
+		  margin: 0;
+		  border: 0;
+		  color: red;
+	  }
+	  .recepten-categories {
+		  display: flex;
+		  flex-flow: row wrap;
+		  align-items: center;
+		  padding-right: 9px;
+		  svg.post-categories__svg {
+			  margin-right: 0;
+			  fill: blue;
+		  }
+		  a {
+			  text-decoration: none;
+			  border-bottom: 0;
+			  display: flex;
+		  }
+	  }
+  }
+  .menu-bij {
+	  color: $brand-color;
+	  font-size: 19px;
+  }
+  .menu-min {
+	  color: $menu;
+	  padding-left: 6px;
+	  font-size: 19px;
+	  }
+  
+  .recepten-tags {
+	  margin-bottom: 36px;
+	  font-weight: 600;
+	  color: $brand-color;
+	  font-size: 21px;
+	  span {
+		  font-weight: 300;
+	  }
+	  a {
+		  color: $rood;
+		  font-size: 21px;
+	  }
+  }
+  
+  .recepten-sub {
+	  @media screen and (min-width: $on-palm){  
+		  display: flex;
+		  flex-flow: row wrap;		
+	  }
+  }
+  .recepten-image {
+	  margin: auto;
+	  margin-left: 36px;
+	  width: 50%;
+	  img {
+		  width: 100%;
+	  }
+	  @media screen and (min-width: $on-palm){  
+		  margin-left: 0;
+	  }}
+  .recepten-citaat {
+	  padding: 36px;
+	  p:first-child {
+		  font-family: 'rufina';
+		  font-style: italic;
+		  font-size: 21px;
+		  line-height: 32px;
+		  margin-bottom: 0;
+	  }
+	  p:last-child {
+		  font-family: 'rufina', serif; 
+		  font-style: regular;
+		  padding-top: 0.5em;
+	  }
+	  @media screen and (min-width: $on-palm){  
+		  width: 50%;		
+	  }
+  }
+  
+  .recepten-index {
+	  font-family: "rufina"; 
+	  font-styel: regular; 
+	  font-size: 42px; 
+	  color: red; 
+	  margin-top: -0.5em;
+	  margin: auto;
+	  margin-top: 24px;
+	  margin-bottom: 18px;
+	  padding-left: 16px;
+	  line-height: 1.2em;
+	  text-align: left;
+	  span {
+		  font-family: $font1;
+		  font-weight: 600;
+		  font-size: 42px;
+		  color: $text-color;
+		  letter-spacing: 0.05em;
+	  }
+	  @media (min-width: $on-palm) {
+		  width: 643px;;
+		  padding-left: 36px;
+	  }
+	  @media (min-width: $on-tablet) {
+		  width: 824px;;
+	  }
+	  @media (min-width: $on-laptop) {
+		  width: 824px;;
+	  }
+  }
+  
+  
+  span.clear-cart-dash {
+	  font-size: 18px;
+	  color: red;
+	  border-color: 0;
+  }
+  

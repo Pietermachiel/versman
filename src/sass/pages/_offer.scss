@@ -1,0 +1,287 @@
+/*------------------------------------*\
+  #PAGES-OFFER
+\*------------------------------------*/
+
+h1.offer-week {
+	font-family: giddyup-std;
+    font-size: 90px;
+    text-align: center;
+    width: 100%;
+    max-width: 1025px;
+	margin: auto;
+	margin-top: 25px;
+    -webkit-text-stroke: 1px #f4f8fb;
+}
+.poster-box {
+	max-width: 312px;
+    margin: auto;
+    margin-top: -10px;
+	@media (min-width: $on-palm) {
+		max-width: 700px;
+	}
+	@media (min-width: $on-tablet) {
+		max-width: 900px;
+	}
+}
+
+// posters 
+
+.posters {
+	width: calc(50% - 10px);
+	margin-bottom: 12px;
+	float: left;
+    border: 1px solid rgba(210,200,200,0.5);
+	font-size: 16px;
+	color: $text-color;
+	padding: 13px;
+	// padding-bottom: 35%;
+	// margin: 50px;
+	position: relative;
+	height: 13rem;
+	// width: 245px; 
+	// height: 360px; 
+	a {
+		color: black;		
+	}
+	a:hover {
+		// line-height: 1em;
+		// border-bottom: 1px solid black;
+		// padding-bottom: 2px;
+		text-decoration: none;
+
+	}
+	@media (min-width: $on-palm) {
+		width: calc(33.3% - 10px);
+		font-size: 21px;
+		height: 16rem;
+	}
+	@media (min-width: $on-tablet) {
+		width: calc(25% - 10px);
+		font-size: 21px;
+		height: 16rem;
+	}
+	p.title {
+		font-weight: 600;
+		margin-bottom: 0.75em;
+	}
+	p.eng {
+		font-size: 19px;
+	}
+	p.text {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 21px;
+		@media (min-width: $on-palm) {
+			font-size: 24px;
+			line-height: 30px;
+		}	
+		// @media (min-width: $on-laptop) {
+		// 	font-size: 28px;
+		// 	line-height: 36px;
+		// }	
+	}
+	p.unit {
+		margin-bottom: 0;
+		font-family: $mono;
+		position: absolute;
+		bottom: 90px;
+		left: 13px;
+	}
+	p.price {
+		font-family: $mono;
+		position: absolute;
+		bottom: 40px;
+		left: 13px;
+	}
+	p.unit2 {
+		margin-bottom: 0;
+		font-family: $mono;
+		position: absolute;
+		bottom: 90px;
+		left: 140px;
+	}
+	p.price2 {
+		font-family: $mono;
+		position: absolute;
+		bottom: 40px;
+		left: 140px;
+	}
+	p.lekker {
+		display: none;
+	}
+	img {
+		display: none;
+	}
+	p.bio {
+		position: absolute;
+		bottom: 3rem;
+		right: 1.3rem;
+		// width: 2rem;
+		color: rgba(255,255,255,1);
+		font-family: $mono;
+		border: 1px solid white;
+	    padding: 12px;
+	    border-radius: 50%;
+	    width: 85px;
+	    height: 85px;
+		span.percent {
+			margin-bottom: -0.5em;
+			font-weight: 300;
+		}
+		span.bio {
+			font-size: 32px;
+			font-weight: 200;
+		}
+	}
+	p.country {
+		position: absolute;
+		bottom: 0;
+		left: 1.3rem;
+		text-transform: uppercase;
+		font-size: 16px;
+		font-weight: 400;
+		letter-spacing: 0.1em;
+		@media (min-width: $on-tablet) {
+			font-size: 16px;
+			line-height: 30px;
+			// bottom: 0.5rem;
+		}	
+		@media (min-width: $on-laptop) {
+			font-size: 18px;
+			line-height: 30px;
+			// bottom: 0.5rem;
+		}	
+
+	}
+}
+
+@media print {
+	
+	@page :first {
+		size: A4;
+		margin: 0.5cm; 
+	}
+	@page {
+		size: A4;
+		margin: 0.5cm; 
+	}
+	nav.navbox,
+	footer,
+	.theposters,
+	h1.page-title_giddyup,
+	#map {
+		display: none;
+	}
+	body {
+		margin-left: 0;
+		width: 100%;
+		margin-right: 0;
+		height: 100%;
+	}
+	.content {
+		height: 100%;
+	}
+	.container {
+		padding: 0 0;
+		margin-top: 0;
+	}
+	.poster-box {
+		width: 100%;
+		max-width: 100%;
+		margin-top: 0;
+	}
+	.posters {
+		// page-break-before: always;
+		width: 100%;
+		max-width: 100%;
+		height: 376.5mm;
+		padding: 50px;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		position: relative;
+		@media (min-width: $on-palm) {
+			width: 100%;
+		}
+		@media (min-width: $on-tablet) {
+			width: 100%;
+		}
+		p.title {
+			font-size: 95px;
+			font-weight: 500;	
+			margin-bottom: 0;
+			line-height: 110px;
+		}
+		p.text {
+			font-size: 130px;
+			font-weight: 500;
+			line-height: 140px;
+			margin-top: 60px;
+		}
+		p.eng {
+			font-size: 80px;
+			font-weight: 300;
+			margin: 80px 0;
+			padding-left: 60px;
+		}
+		p.unit {
+			font-size: 90px;
+			font-weight: 500;			
+			position: absolute;
+			bottom: 3.50em;
+			left: 50px;
+		}
+		p.price {
+			font-size: 90px;
+			font-weight: 500;			
+			position: absolute;
+			bottom: 2em;
+			left: 50px;
+		}
+		p.unit2 {
+			font-size: 90px;
+			font-weight: 500;			
+			position: absolute;
+			bottom: 3.50em;
+			left: 550px;
+		}
+		p.price2 {
+			font-size: 90px;
+			font-weight: 500;			
+			position: absolute;
+			bottom: 2em;
+			left: 550px;
+		}
+		p.country {
+			position: absolute;
+			bottom: 0.5rem;
+			left: 1.3rem;
+			text-transform: uppercase;
+			font-weight: 400;
+			letter-spacing: 0.1em;
+			font-size: 60px;
+			padding-left: 20px;
+			bottom: 40px;
+			left: 100px;	
+			z-index: 100;
+		}
+		p.lekker {
+			display: none;
+			font-family: giddyup-std;
+			font-size: 75px;
+			line-height: 75px;
+			position: absolute;
+			bottom: 2.75em;
+			left: 48%;
+			right: 25px;
+		}
+		img {
+			display: block;
+			position: absolute;
+			bottom: 50px;
+			right: 65px;
+			width: 35%;
+			opacity: 50%;
+		}
+	}
+	
+}

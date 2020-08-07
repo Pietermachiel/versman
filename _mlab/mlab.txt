@@ -1,0 +1,23 @@
+MLAB
+
+Import collection
+$ mongoimport -h ds247290.mlab.com:47290 -d hetkookt -c allsorts -u Pietermachiel -p de519n4u --file allsorts.json
+
+Export collection
+$ mongoexport -h ds247290.mlab.com:47290 -d hetkookt -c allsorts -u <user> -p <password> -o allsorts.json
+
+
+MLAB
+
+Import collection
+$ mongoimport -h ds145463.mlab.com:45463 -d versman -c sorts -u Pietermachiel -p de519n4u --file sorts.json
+$ mongoimport -h ds145463.mlab.com:45463 -d versman -c categories -u Pietermachiel -p de519n4u --file categories.json
+$ mongoimport -h ds145463.mlab.com:45463 -d versman -c products -u Pietermachiel -p de519n4u --file products.json
+
+Export collection
+$ mongoexport -h ds145463.mlab.com:45463 -d versman -c categories -u Pietermachiel -p de519n4u -o categories.json
+$ mongoexport -h ds145463.mlab.com:45463 -d versman -c sorts -u Pietermachiel -p de519n4u -o sorts.json
+
+HEROKU
+
+$ heroku config:set hetkookt_db='mongodb://pietermachiel:de519n4u@ds247290.mlab.com:47290/hetkookt'

@@ -1,0 +1,23 @@
+/*------------------------------------*\
+  #PAGES-FORM
+\*------------------------------------*/
+
+.form-postcode {
+  margin: 0 1rem;
+}
+.form-postcode__button-check {
+  display: inline;
+  margin-left: 1em;
+}
+.form-postcode__helaas {
+  color: red;
+  font-weight: 500;
+}
+.form-postcode_geldig {
+  color: orange;
+  font-weight: 500;
+}
+.form-postcode_aanmelden {
+  color: $brand-color;
+  font-weight: 500;
+}

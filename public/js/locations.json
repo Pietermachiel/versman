@@ -1,0 +1,101 @@
+[
+	{
+		"id": 1,
+		"country": "Nederland",
+		"fields": {
+			"coordinates": {
+			"lng": "5.7",
+			"lat": "54.5"
+			}
+		},
+		"products": ["Frieslander","Aardpeer","Truffelaardappel","Rode biet","Koolraap","Knolselderij","Yacon","Winterpeen","Rammenas","Uien","Zoete ui","Rode ui","Sjalotten","Pompoen","Kastanjechampignons","Porto Bello","Shii Take","Andijvie","Paksoy","Raapsteel","Winterpostelein","Witlof","Bloemkool","Boerenkool","Savooiekool","Palmkool","Rode kool","Spitskool","Spruitjes","Witte kool","Prei","Elstar","Goudreinette","Xenia","Gieser Wildeman"]		
+	},
+	{
+		"id": 2,
+		"country": "Spanje",
+		"fields": {
+			"coordinates": {
+			"lng": "-4.8",
+			"lat": "35.3"
+			}
+		},
+		"products": ["Bataat","Bataat","Knoflook","Avocado","Courgette","Aubergine","Komkommer","Paprika rood","Peper rood","Trostomaat","Broccoli","Chineese kool","Bleekselderij","Venkel","Mango","Limoen","Clementine","Sinaasappel","Grapefruit","Alo‘ Vera"]
+	},
+	{
+		"id": 3,
+		"country": "Italie",
+		"fields": {
+			"coordinates": {
+			"lng": "38.6",
+			"lat": "44.1"
+			}
+		},
+		"products": ["Waspeen","Radijs","Rettig","Ruccola","Koolrabie","Artisjok","Kiwi","Bergamot"]
+	},
+	{
+		"id": 4,
+		"country": "Frankrijk",
+		"fields": {
+			"coordinates": {
+			"lng": "1.9",
+			"lat": "49.4"
+			}
+		},
+		"products": ["Bataviasla","Romanesco","Peterselie","Rozemarijn","Tijm"]
+	},
+	{
+		"id": 5,
+		"country": "Colombia",
+		"fields": {
+			"coordinates": {
+			"lng": "-73.8",
+				"lat": "2.9"
+		}
+		},
+		"products": ["banaan"]
+	},
+	{
+		"id": 6,
+		"country": "Egypte",
+		"fields": {
+			"coordinates": {
+			"lng": "26.3",
+			"lat": "27.3"
+			}
+		},
+		"products": ["tuinboontjes"]
+	},
+	{
+		"id": 7,
+		"country": "Marocco",
+		"fields": {
+			"coordinates": {
+			"lng": "-7.3",
+			"lat": "31.2"
+			}
+		},
+		"products": ["yuzu"]
+	},
+	{
+		"id": 8,
+		"country": "Costa-Rica",
+		"fields": {
+			"coordinates": {
+			"lng": "-84",
+			"lat": "10.2"
+			}
+		},
+		"products": ["ananas", "gember"]
+	},
+	{
+		"id": 9,
+		"country": "Peru",
+		"fields": {
+			"coordinates": {
+			"lng": "-75",
+			"lat": "-6.9"
+			}
+		},
+		"products": ["blauwe bes"]
+	}
+]

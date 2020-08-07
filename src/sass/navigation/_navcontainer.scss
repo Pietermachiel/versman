@@ -1,0 +1,381 @@
+/*------------------------------------*\
+  #NAVIGATION-NAVCONTAINER
+\*------------------------------------*/
+
+// html
+.menu-open {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    @media (min-width: $on-palm) {
+        position: relative;
+    }
+}
+
+//nav
+.navbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 36px;
+    margin: 0 auto;
+    width: 100%;
+    // max-width: 1440px;
+    @media (min-width: $on-tablet) {
+    }
+}
+
+// logo versman100%bio
+.navbox-logo {
+    position: absolute;
+    top: 24px;
+    left: 100px;
+    width: 140px;
+    font-weight: 700;
+    color: $brand-color !important;
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    z-index: 10000;
+    @media (min-width: $on-tablet) {
+        position: relative;
+        right: 0;
+        left: 0;
+        top: 0;
+        width: 300px;
+        img {
+            width: 300px;
+        }    
+    }    
+}
+
+// .nabar__flex {
+//     position: relative;
+// }
+
+// hamburger 
+
+button:focus {
+    outline: 0 dotted;
+    outline: 0 auto -webkit-focus-ring-color;
+}
+
+.hamburger {
+    display: block;
+    /* float: right; */
+    position: absolute;
+    top: 43px;
+    left: 36px;
+    background-color: transparent;
+    width: 23px;
+    height: 16px;
+    // margin: 20px 0 20px 36px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    z-index: 10000;
+    @media (min-width: $on-tablet) {
+        display: none;
+    }
+}
+
+
+
+.navbox-panel[aria-expanded=true] {
+    opacity: 1;
+    visibility: visible;
+}
+.navbox-panel {
+    @media (max-width: $on-tablet) {
+        position: fixed;
+        display: flex;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        background-color: $brand-color;
+        list-style: none;
+        transition: all .2s ease-in-out;
+        will-change: top;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 10;        
+    }
+    @media (min-width: $on-tablet) {
+        // visibility: visible;
+        // opacity: 1;
+        // background: none;
+        display: flex;
+        flex-basis: auto;
+        // flex-flow: row wrap;
+        justify-content: space-between;
+        width: calc(100% - 300px);
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.navbox-panel__list {
+    @media(max-width: $on-tablet) {
+        position: absolute;
+        top: 175px;
+        left: 25%;
+        width: 100%;
+        min-width: 320px;
+        // padding-left: 40px;        
+    }
+    @media(min-width: $on-tablet) {
+        display: flex;
+        margin-right: auto;
+        // flex-flow: row wrap;
+        justify-content: space-between;
+        // width: 100%;
+        // padding-left: 40px; 
+        margin-bottom: 0;       
+    }
+    li {
+        @media(max-width: $on-tablet) {
+            margin-bottom: 1em;
+        }
+            // margin-bottom: 0.5em;
+        font-weight: 400;
+        // font-size: 30px;
+        color: black;
+        list-style: none;
+        // font-size: 36px;
+        color: black;
+        text-decoration: none;
+        -webkit-transition: color .15s;
+        transition: color .15s;
+        padding-right: 18px;
+        a {
+            @media (max-width: $on-tablet) {
+                font-size: 30px;
+            }
+            color: black;
+            font-weight: 300;
+        }
+        a:hover {
+            line-height: 1em;
+            border-bottom: 1px solid black;
+            // padding-bottom: 2px;
+            text-decoration: none;
+        }
+
+    }
+    li.navbox-panel__login {
+        a {
+            color: $brand-color;        
+        }
+        a.isopen {
+            color: white;        
+        }
+    }
+
+    li.navbox-panel__order {
+        list-style: none;
+        color: silver;
+        a {
+            @media (max-width: $on-tablet) {
+                font-size: 30px;
+            }
+            color: silver;
+            font-weight: 300;
+        }
+        a.isopen {
+            color: #95f190;
+        }
+        a:hover {
+            line-height: 1em;
+            border-bottom: 1px solid black;
+            // padding-bottom: 2px;
+            text-decoration: none;
+        }
+    }    
+}
+
+
+
+
+
+// // Login
+// a.nav-link {
+//     font-weight: 300;
+//     font-size: 21px;
+// 	margin-right: 0;
+//     margin-left: 0;
+//     color: black !important;
+//     position: relative;
+//     display: inline-block;
+//     line-height: 1em;
+//     // border-bottom: 1px solid black;
+//     // padding-bottom: 4px;
+//     &:hover {
+//         border-bottom: 1px solid black;
+//     }
+// }
+
+// Search
+input.form-control {
+    background-color: transparent !important;
+    border: 1px solid #9BDDAB;
+}
+
+
+.bio-svg {
+    img {
+    position: absolute;
+    bottom: -228px;
+    left: 0;
+    right: 0;
+    width: 90%;
+    text-align: center;
+    margin: auto;            
+    }
+    @media (min-width: $on-tablet) {
+        display: none;
+    }
+}
+
+// first child
+
+.hamburger.navbox--menu-open  span:first-child {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.hamburger.navbox--menu-open  span:first-child, 
+.navbox--menu-open .hamburger span:nth-child(3) {
+    top: 9px;
+}
+
+.hamburger span:first-child {
+    top: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+}
+.hamburger.navbox--menu-open  span {
+    background-color: #fff;
+}
+.navbox--inverted .hamburger span {
+    background-color: #fff;
+}
+
+// second child
+
+.hamburger span:nth-child(2) {
+    bottom: 1px;
+}
+
+.hamburger span {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: $brand-color;
+    -webkit-transition: all .25s .1s;
+    transition: all .25s .1s;
+}
+
+.hamburger.navbox--menu-open  span:nth-child(2) {
+    width: 0;
+    opacity: 0;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+}
+
+.hamburger span:nth-child(2) {
+    bottom: 1px;
+}
+
+// third child
+
+.hamburger.navbox--menu-open  span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.hamburger.navbox--menu-open  span:first-child, 
+.hamburger.navbox--menu-open  span:nth-child(3) {
+    top: 9px;
+}
+.hamburger span:nth-child(3) {
+    top: 6px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+}
+
+
+.vrachtwagen {
+    position: absolute;
+    right: 18px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-left: 15px;
+    // width: 144px;
+    height: 30px;
+    border-bottom: 1px solid $brand-color;  
+    z-index: 100;
+    @media (min-width: $on-tablet) {
+        position: relative;
+        width: 180px;
+        margin-top: 25px;
+    }
+    p.price {
+        font-family: $mono;
+        // margin-right: 10px;	
+    }
+    a {
+        color: white;
+    }
+    p.count {
+        background-image: url(/public/img/icons/vrachtwagentje2.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        background-color: transparent;
+        width: 24px;
+        height: 24px;
+        border: 0;
+        /* border-radius: 50%; */
+        width: 62px;
+        height: 40px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        padding: 11px;
+        padding-left: 0px;
+        margin-top: -11px;
+        // &::before {
+        //     background-image: url(/public/img/icons/vrachtwagen3.svg);
+        //     background-repeat: no-repeat;
+        //     background-size: contain;
+        //     background-position: center center;
+        //     background-color: transparent;
+        //     width: 24px;
+        //     height: 24px;
+        // }
+    }
+    img {
+        width: 30px;
+        height: 30px;
+        // margin-left: 10px;	
+    }
+}

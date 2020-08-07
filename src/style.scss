@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+// Galano Grotesque W00
+$font1: "Fira Sans", Helvetica, Arial, sans-serif;
+$font2: "rufina";
+$giddyup: giddyup-std;
+$mono: "Fira Mono";
+$fontsize:   18px;
+$fontweight: 300;
+$smaller:  1em * 0.9;
+$bigger:  $fontsize * 1.125;
+$lineheight: 1.3;
+$spacing: 25px;
+
+// Min-width of the content area
+$on-palm:      768px;
+$on-tablet:    992px;
+$on-laptop:    1200px;
+
+$text-color:   #111;
+$bg-color:     #f9f9f9;
+$tshadow:      0px 0px 25px #323331;
+$brand-color:  rgb(64, 212, 57);
+$mistyrose:    #ffe6e1ab;
+
+$oceaan: rgb(0,101,128);
+$ossen: rgb(184,2,1);
+$fuchsia: rgb(232,12,122);
+$wit: #fdfdfd;
+$appel: rgb(83, 227, 56);
+$zwart: rgb(60,60,59);
+$bruin: rgb(146,94,71);
+$paars: rgb(150,51,116);
+$cyclaam: rgb(193,24,83);
+$rood: rgb(255,33,0);
+$aardbei: rgb(255, 72, 0);
+$roze: rgb(249,200,233);
+$leger: rgb(129,129,53);
+$groen: rgb(40,137,44);
+$gras: rgb(220,228,55);
+$olijf: rgb(208,192,50);
+$oranje: rgb(255, 153, 0);
+$koffie: rgb(211,142,75);
+$geel: rgb(255, 230, 0);
+$citroen: yellow;
+$grijs: rgb(178,178,178);
+$rose: rgb(224,181,181);
+$beige: rgb(212,184,142);
+$marine: rgb(152,180,223);
+$turquoise: rgb(141,187,181);
+$lichtblauw: rgb(208,237,252);
+$blauw: rgb(67,125,192);
+$felblauw: #237be0;
+$donkerblauw: #0364d3;
+$menu: rgb(73, 141, 220);
+$aqua: rgb(30,188,239);
+$grijs-60: rgb(100,100,100);
+$grijs-50: rgb(127,127,127);
+$grijs-40: rgb(178,178,178);
+$grijs-20: rgb(200,200,200);
+$grijs-10: rgb(230,230,230);
+
+@import "./sass/basics/_base",
+        "./sass/basics/_color",
+        "./sass/basics/_kramdown",
+        "./sass/basics/_typo",
+        "./sass/common/_switch",
+        "./sass/common/_page",
+        "./sass/navigation/_footer",
+        "./sass/navigation/_header",
+        "./sass/navigation/_navbox",
+        "./sass/navigation/_navcontainer",
+        "./sass/pages/_about",
+        "./sass/pages/_assortiment",
+        "./sass/pages/_carts",
+        "./sass/pages/_checkout",
+        "./sass/pages/_form",
+        "./sass/pages/_home",
+        "./sass/pages/_login",
+        "./sass/pages/_mapbox",
+        "./sass/pages/_menu",
+        "./sass/pages/_news",
+        "./sass/pages/_offer",
+        "./sass/pages/_orders",
+        "./sass/pages/_posters",
+        "./sass/pages/_producten",
+        "./sass/pages/_recepten",
+        "./sass/pages/_table"
+;
+
+// body {
+//         background-color: red;
+// }
+
+
+
+

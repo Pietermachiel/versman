@@ -1,0 +1,202 @@
+.today-dichtbij {
+    // position: absolute;
+    // top: 0;
+    // left: 50%;
+    // transform: translate(-50%, 0);
+    // z-index: 1;
+    font-family: giddyup-std;
+    font-size: 48px;
+    text-align: center;
+    width: 100%;
+    max-width: 1025px;
+    margin-bottom: 50px;
+  
+      span {
+        font-size: 0.9em;
+      }
+    }
+
+.poster_snijbiet {
+    background-color: $lichtblauw;
+    p.title {
+        color: $groen;
+    }
+    p.text {
+        color: $rood;
+    }
+}
+.poster_tomaat {
+    background-color: $oranje;
+    p.title {
+        color: $rood;
+    }
+    p.text {
+        color: $wit;
+    }
+}
+
+.poster_perssinaasappel,
+.poster_sinaasappel-pers,
+.poster_sinaasappel,
+.poster_wortel,
+.poster_perzik {
+    background-color: $oranje;
+    p.title {
+        color: $wit;
+    }
+    p.text {
+        color: $rood;
+    }
+    p.country {
+        color: $geel;
+    }
+}
+.poster_witte-asperges,
+.poster_sla,
+.poster_koriander,
+.poster_tuinbonen {
+    background-color: $gras;
+    p.title {
+        color: $wit;
+    }
+    p.text {
+        color: $groen;
+    }
+}
+.poster_groene-asperges,
+.poster_spinazie,
+.poster_romainsla {
+    background-color: $appel;
+    p.title {
+        color: $wit;
+    }
+    p.text {
+        color: $zwart;
+    }
+}
+// .poster_aardbeien,
+.poster_rode-paprika,
+.poster_paprika,
+.poster_appel {
+    background-color: $aardbei;
+    p.title {
+        color: $wit;
+    }
+    p.text {
+        color: $appel;
+    }
+    p.country {
+        color: $appel !important;
+    }}
+.poster_abrikoos {
+    background-color: $oranje;
+    p.title {
+        color: $wit;
+    }
+    p.text {
+        color: $geel;
+    }
+    p.country {
+        color: white !important;
+    }
+}
+.poster_paksoy,
+.poster_asperge {
+    background-color: $lichtblauw;
+    p.title {
+        color: $groen;
+    }
+    p.text {
+        color: $appel;
+    }
+}
+.poster_peulen {
+    background-color: $appel;
+    p.title {
+        color: $wit;
+    }
+    p.text {
+        color: $citroen;
+    }
+}
+.poster_blauwe-bessen {
+    background-color: $donkerblauw;
+    p.title {
+        color: $wit;
+    }
+    p.text {
+        color: $lichtblauw;
+    }
+}
+.poster_peer {
+    background-color: $appel;
+    p.title {
+        color: $zwart;
+    }
+    p.text {
+        color: $citroen;
+    }
+}
+.poster_rucola {
+    background-color: $appel;
+    p.title {
+        color: $zwart;
+    }
+    p.text {
+        color: $wit;
+    }
+}
+.poster_avocado,
+.poster_meloen,
+.poster_citroen {
+    background-color: $geel;
+    p.title {
+        color: $groen;
+    }
+    p.text {
+        color: $rood;
+    }
+    p.country {
+        color: $rood !important;
+    }
+}
+.poster_aardbei {
+    background-color: $roze;
+    p.title {
+        color: $rood;
+    }
+    p.text {
+        color: $rood;
+    }
+}
+.poster_venkel {
+    background-color: $wit;
+    p.title {
+        color: $gras;
+    }
+    p.text {
+        color: $gras;
+    }
+    p.country {
+        color: $groen !important;
+    }
+}
+.poster_watermeloen {
+    background-color: $wit;
+    p.title {
+        color: $appel;
+    }
+    p.text {
+        color: $appel;
+    }    
+}
+
+.poster_kropsla {
+    background-color: $lichtblauw;
+    p.title {
+        color: $groen;
+    }
+    p.text {
+        color: black;
+    }
+}
